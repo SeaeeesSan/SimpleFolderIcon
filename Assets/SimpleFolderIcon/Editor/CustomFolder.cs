@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace CustomFolders.Editor
+namespace SimpleFolderIcon.Editor
 {
     [InitializeOnLoad]
     public class CustomFolder
@@ -20,7 +20,7 @@ namespace CustomFolders.Editor
                 return;
             }
 
-            Texture texture = (Texture)AssetDatabase.LoadAssetAtPath($"Packages/SimpleFolderIcon/Icons/{Path.GetFileName(path)}.png", typeof(Texture2D));
+            Texture texture = (Texture)AssetDatabase.LoadAssetAtPath($"Assets/SimpleFolderIcon/Icons/{Path.GetFileName(path)}.png", typeof(Texture2D));
             Rect imageRect;
 
             if(texture == null) return;
