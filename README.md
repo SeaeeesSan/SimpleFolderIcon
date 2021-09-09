@@ -2,7 +2,7 @@
 
 Unityのprojectウィンドウのフォルダの見た目を変更します。
 
-![image](https://user-images.githubusercontent.com/68797964/132647145-96c4d152-efd1-4ec6-8172-c5c2cc4f8eca.png)
+![image](https://user-images.githubusercontent.com/68797964/132674424-3e843621-fb4d-4e87-870c-73fe436d7654.png)
 
 ## バージョン
 
