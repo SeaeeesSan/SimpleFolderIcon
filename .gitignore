@@ -71,3 +71,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 /.idea/
+
+Assets/demo/
+Assets/Scenes/
+Assets/demo.meta
