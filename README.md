@@ -43,3 +43,4 @@
 ## License
  
 - [MIT license](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
+- フォルダアイコンの一部に、[Material design icons](https://fonts.google.com/icons)を使用しています。
