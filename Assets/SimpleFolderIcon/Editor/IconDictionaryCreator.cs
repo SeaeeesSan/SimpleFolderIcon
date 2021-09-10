@@ -2,8 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-
-namespace SimpleFolderIcon
+namespace SimpleFolderIcon.Editor
 {
     public class IconDictionaryCreator : AssetPostprocessor
     {
