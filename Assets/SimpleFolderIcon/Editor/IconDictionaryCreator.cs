@@ -11,7 +11,13 @@ namespace SimpleFolderIcon.Editor
 
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
         {
-            if (!ContainsIconAsset(importedAssets) && !ContainsIconAsset(deletedAssets) && !ContainsIconAsset(movedAssets) && !ContainsIconAsset(movedFromAssetPaths)) return;
+            if (!ContainsIconAsset(importedAssets) &&
+                !ContainsIconAsset(deletedAssets) &&
+                !ContainsIconAsset(movedAssets) &&
+                !ContainsIconAsset(movedFromAssetPaths))
+            {
+                return;
+            }
 
             ReBuildDictionary();
         }
