@@ -19,7 +19,7 @@ namespace SimpleFolderIcon.Editor
                 return;
             }
 
-            ReBuildDictionary();
+            BuildDictionary();
         }
 
         private static bool ContainsIconAsset(string[] assets)
@@ -34,7 +34,7 @@ namespace SimpleFolderIcon.Editor
             return false;
         }
 
-        internal static void ReBuildDictionary()
+        internal static void BuildDictionary()
         {
             var dictionary = new Dictionary<string, Texture>();
 

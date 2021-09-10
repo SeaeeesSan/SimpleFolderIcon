@@ -9,11 +9,11 @@ namespace SimpleFolderIcon.Editor
     {
         static CustomFolder()
         {
-            IconDictionaryCreator.ReBuildDictionary();
-            EditorApplication.projectWindowItemOnGUI += DrawAssetDetails;
+            IconDictionaryCreator.BuildDictionary();
+            EditorApplication.projectWindowItemOnGUI += DrawFolderIcon;
         }
 
-        private static void DrawAssetDetails(string guid, Rect rect)
+        static void DrawFolderIcon(string guid, Rect rect)
         {
             var path = AssetDatabase.GUIDToAssetPath(guid);
             var iconDictionary = IconDictionaryCreator.IconDictionary;
@@ -26,14 +26,7 @@ namespace SimpleFolderIcon.Editor
                 return;
             }
 
-            var texture = IconDictionaryCreator.IconDictionary[Path.GetFileName(path)];
-
             Rect imageRect;
-
-            if (texture == null)
-            {
-                return;
-            }
 
             if (rect.height > 20)
             {
@@ -46,6 +39,12 @@ namespace SimpleFolderIcon.Editor
             else
             {
                 imageRect = new Rect(rect.x + 2, rect.y - 1, rect.height + 2, rect.height + 2);
+            }
+
+            var texture = IconDictionaryCreator.IconDictionary[Path.GetFileName(path)];
+            if (texture == null)
+            {
+                return;
             }
 
             GUI.DrawTexture(imageRect, texture);
