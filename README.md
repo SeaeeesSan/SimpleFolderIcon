@@ -1,6 +1,6 @@
 # SimpleFolderIcon
 
-![GitHub all releases](https://img.shields.io/github/downloads/SeaeeesSan/SimpleFolderIcon/total)
+[![GitHub all releases](https://img.shields.io/github/downloads/SeaeeesSan/SimpleFolderIcon/total)](https://github.com/SeaeeesSan/SimpleFolderIcon/releases)
 [![GitHub license](https://img.shields.io/github/license/SeaeeesSan/SimpleFolderIcon)](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
 
 ![image](https://user-images.githubusercontent.com/68797964/132812959-b3750127-e213-41ee-bb9c-6d56c04b5da5.png)
