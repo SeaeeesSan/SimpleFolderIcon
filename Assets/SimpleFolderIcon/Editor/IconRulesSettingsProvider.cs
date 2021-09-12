@@ -1,27 +1,31 @@
-using System.Collections.Generic;
-using SimpleFolderIcon;
 using UnityEditor;
-using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace SimpleFolderIcon.Editor
 {
+    [InitializeOnLoad]
     public class IconRulesSettingsProvider : SettingsProvider
     {
         public static IconRulesSetting Setting;
+
+        static IconRulesSettingsProvider()
+        {
+            Setting = AssetDatabase.LoadAssetAtPath<IconRulesSetting>(AssetDatabase.GUIDToAssetPath(EditorUserSettings.GetConfigValue("SettingsGUID")));
+        }
 
         public IconRulesSettingsProvider(string path, SettingsScope scope)
             : base(path, scope)
         {
         }
 
-        private void Save()
+        private static void Save()
         {
-            EditorUserSettings.SetConfigValue("SettingsGUID",AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Setting)));
+            EditorUserSettings.SetConfigValue("SettingsGUID", AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Setting)));
             IconDictionaryCreator.BuildDictionary();
         }
 
         public override void OnDeactivate() => Save();
+
         public override void OnInspectorUpdate() => Save();
 
         public override void OnActivate(string searchContext, VisualElement rootElement)
