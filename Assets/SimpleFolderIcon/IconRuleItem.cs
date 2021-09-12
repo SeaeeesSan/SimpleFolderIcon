@@ -1,9 +1,10 @@
+using System;
 using UnityEngine;
 
 namespace SimpleFolderIcon
 {
-    [System.Serializable]
-    public class IconRule
+    [Serializable]
+    public class IconRuleItem
     {
         public bool enabled = true;
         public Texture folderIcon;
