@@ -3,7 +3,7 @@
 [![GitHub all releases](https://img.shields.io/github/downloads/SeaeeesSan/SimpleFolderIcon/total)](https://github.com/SeaeeesSan/SimpleFolderIcon/releases)
 [![GitHub license](https://img.shields.io/github/license/SeaeeesSan/SimpleFolderIcon)](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
 
-![image](https://user-images.githubusercontent.com/68797964/132812959-b3750127-e213-41ee-bb9c-6d56c04b5da5.png)
+![image](https://user-images.githubusercontent.com/68797964/132967661-a6aff48e-4605-417f-8f4c-367d9172ed0f.png)
 
 ## Features
  
@@ -19,9 +19,11 @@
 - Models
 - Plugins
 - Prefabs
+- Presets
 - Resources
 - Scenes
 - Scripts
+- Settings
 - Shaders
 - Sprites
 - Textures
@@ -31,7 +33,7 @@
 `Assets/SimpleFolderIcon/Icons/Default/Default.png`がアイコンテンプレートです。  
 アイコンを追加する場合は`Assets/SimpleFolderIcon/Icons/`に.png形式のアイコン（推奨256×256）を入れてください。
 
-`Assets/SimpleFolderIcon/Icons/`内のアイコンのファイル名が、そのまま適用されるフォルダの名前になっています。ファイル名を変更して対象となるフォルダ名を変更できます。
+`Assets/SimpleFolderIcon/Icons/`内のアイコンのファイル名が、そのまま適用されるフォルダの名前になっています。**画像をリネーム・削除して、アイコンをカスタマイズ可能です。**
 
 ## Requirement
  
