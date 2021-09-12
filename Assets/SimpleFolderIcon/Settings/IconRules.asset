@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279707970e3a4414bfc82155db952f2f, type: 3}
+  m_Name: IconRules
+  m_EditorClassIdentifier: 
+  iconSettings:
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: eab75b706f70aca43b8ff64634c515ee, type: 3}
+    folderName: Animations
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: eab75b706f70aca43b8ff64634c515ee, type: 3}
+    folderName: Animation
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 30b6f094fe545f640b5f5da798a13fb8, type: 3}
+    folderName: Audio
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 512d76f3dccd6f640b4ccc01cb61b756, type: 3}
+    folderName: Editor
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 62ddbe7c7b650f349b033ff9fd3d0bff, type: 3}
+    folderName: Fonts
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 62ddbe7c7b650f349b033ff9fd3d0bff, type: 3}
+    folderName: Font
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 89dbba36a0719d24f9287029f9ee6587, type: 3}
+    folderName: Materials
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 89dbba36a0719d24f9287029f9ee6587, type: 3}
+    folderName: Material
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 45ff670f2cb66164a8d6e10605691373, type: 3}
+    folderName: Model
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 45ff670f2cb66164a8d6e10605691373, type: 3}
+    folderName: Models
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 13b91f0a2558c7048ad52ab46cbec5d9, type: 3}
+    folderName: Plugins
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: bb321d21ec6df16479b3b7ca2912c9c7, type: 3}
+    folderName: Prefab
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: bb321d21ec6df16479b3b7ca2912c9c7, type: 3}
+    folderName: Prefabs
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 78eeb920cc73f444b874a012016e0aba, type: 3}
+    folderName: Preset
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 78eeb920cc73f444b874a012016e0aba, type: 3}
+    folderName: Presets
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 9100ae07f3844b644a425dc2faa495b8, type: 3}
+    folderName: Resources
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 6e5375f7dc7dd98459edcd2fb9a3f8b5, type: 3}
+    folderName: Scripts
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 6e5375f7dc7dd98459edcd2fb9a3f8b5, type: 3}
+    folderName: Script
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: e883a49e0791ffb4da111b699600a550, type: 3}
+    folderName: Scenes
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: e883a49e0791ffb4da111b699600a550, type: 3}
+    folderName: Scene
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 2bc839d7e3db2bf478572af026c7b8b4, type: 3}
+    folderName: Shaders
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 2bc839d7e3db2bf478572af026c7b8b4, type: 3}
+    folderName: Shader
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: b37da4319a2a50d4ebe3cc38697d9acf, type: 3}
+    folderName: Sprites
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: b37da4319a2a50d4ebe3cc38697d9acf, type: 3}
+    folderName: Sprite
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: cb4c49e67fb74904287e1799e8b3e47b, type: 3}
+    folderName: Texture
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: cb4c49e67fb74904287e1799e8b3e47b, type: 3}
+    folderName: Textures
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 3eeb12e1542f9da42815f009b4d9f05d, type: 3}
+    folderName: Settings
+  - enabled: 1
+    folderIcon: {fileID: 2800000, guid: 3eeb12e1542f9da42815f009b4d9f05d, type: 3}
+    folderName: Setting

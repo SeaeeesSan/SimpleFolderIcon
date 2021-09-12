@@ -9,8 +9,8 @@ namespace SimpleFolderIcon.Editor
     {
         static CustomFolder()
         {
-            IconDictionaryCreator.BuildDictionary();
             EditorApplication.projectWindowItemOnGUI += DrawFolderIcon;
+            IconDictionaryCreator.BuildDictionary();
         }
 
         static void DrawFolderIcon(string guid, Rect rect)
@@ -18,7 +18,8 @@ namespace SimpleFolderIcon.Editor
             var path = AssetDatabase.GUIDToAssetPath(guid);
             var iconDictionary = IconDictionaryCreator.IconDictionary;
 
-            if (path == "" ||
+            if (iconDictionary == null ||
+                path == "" ||
                 Event.current.type != EventType.Repaint ||
                 !File.GetAttributes(path).HasFlag(FileAttributes.Directory) ||
                 !iconDictionary.ContainsKey(Path.GetFileName(path)))
