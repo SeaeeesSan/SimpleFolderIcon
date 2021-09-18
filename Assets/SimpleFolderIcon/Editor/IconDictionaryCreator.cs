@@ -6,7 +6,7 @@ namespace SimpleFolderIcon.Editor
 {
     public class IconDictionaryCreator : AssetPostprocessor
     {
-        private const string AssetsPath = @"SimpleFolderIcon\Icons";
+        private const string AssetsPath = "SimpleFolderIcon/Icons";
         internal static Dictionary<string, Texture> IconDictionary;
 
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
@@ -26,7 +26,7 @@ namespace SimpleFolderIcon.Editor
         {
             foreach (string str in assets)
             {
-                if (Path.GetDirectoryName(str) == @"Assets\" + AssetsPath)
+                if (Path.GetDirectoryName(str) == "Assets/" + AssetsPath)
                 {
                     return true;
                 }
@@ -38,7 +38,7 @@ namespace SimpleFolderIcon.Editor
         {
             var dictionary = new Dictionary<string, Texture>();
 
-            var dir = new DirectoryInfo(Application.dataPath + @"\" + AssetsPath);
+            var dir = new DirectoryInfo(Application.dataPath + "/" + AssetsPath);
             FileInfo[] info = dir.GetFiles("*.png");
             foreach(FileInfo f in info)
             {
