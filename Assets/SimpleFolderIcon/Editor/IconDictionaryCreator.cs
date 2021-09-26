@@ -26,12 +26,18 @@ namespace SimpleFolderIcon.Editor
         {
             foreach (string str in assets)
             {
-                if (Path.GetDirectoryName(str) == "Assets/" + AssetsPath)
+
+                if (ReplaceSeparatorChar(Path.GetDirectoryName(str)) == "Assets/" + AssetsPath)
                 {
                     return true;
                 }
             }
             return false;
+        }
+
+        private static string ReplaceSeparatorChar(string path)
+        {
+            return path.Replace("\\", "/");
         }
 
         internal static void BuildDictionary()
