@@ -5,9 +5,11 @@
 
 ![image](https://user-images.githubusercontent.com/68797964/132967661-a6aff48e-4605-417f-8f4c-367d9172ed0f.png)
 
+日本語版は[こちら](README_jp.md)]
+
 ## Features
- 
-プロジェクトウィンドウの特定のフォルダのアイコンを見やすく変更します。
+
+**SimpleFolderIcon** enables you to customize the color and the icon label of your folders in the Unity project browser.
 
 ### Folder List
 
@@ -30,10 +32,13 @@
 
 ## Customize
 
-`Assets/SimpleFolderIcon/Icons/Default/Default.png`がアイコンテンプレートです。  
-アイコンを追加する場合は`Assets/SimpleFolderIcon/Icons/`に.png形式のアイコン（推奨256×256）を入れてください。
+`Assets/SimpleFolderIcon/Icons/Default/Default.png` is the sample icon file.
+Set your own icons by adding the **PNG** format images in `Assets/SimpleFolderIcon/Icons/`.
+The preferred size of the image is **256x256**.
 
-`Assets/SimpleFolderIcon/Icons/`内のアイコンのファイル名が、そのまま適用されるフォルダの名前になっています。**画像をリネーム・削除して、アイコンをカスタマイズ可能です。**
+File names of the icon images in `Assets/SimpleFolderIcon/Icons/` are associated with the names of the folder that will be customize.
+
+**Just simply customize the icons by renaming or deleting the sample image files!**
 
 ## Requirement
  
@@ -41,9 +46,9 @@
  
 ## Installation
  
-- [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases)から.unitypackage形式でダウンロード
+- Download the package from [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases).
  
 ## License
  
 - [MIT license](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
-- フォルダアイコンの一部に、[Material design icons](https://fonts.google.com/icons)を使用しています。
+- Some of the icons are from [Material design icons](https://fonts.google.com/icons).
