@@ -40,9 +40,14 @@
 - Unity2019.4 or later
  
 ## Installation
+
+### Install manually
  
-- [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases)から.unitypackage形式でダウンロード
- 
+- [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases) から.unitypackage形式でダウンロード
+
+### Install via UPM(using Git URL)
+- `https://github.com/SeaeeesSan/SimpleFolderIcon.git?path=/Assets/SimpleFolderIcon` をパッケージマネージャのGitから追加に入力
+
 ## License
  
 - [MIT license](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)

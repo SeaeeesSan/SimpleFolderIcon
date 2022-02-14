@@ -46,8 +46,13 @@ File names of the icon images in `Assets/SimpleFolderIcon/Icons/` are associated
  
 ## Installation
  
-- Download the package from [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases).
+### Install manually
  
+- Download the package from [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases).
+
+### Install via UPM(using Git URL)
+- Add `https://github.com/SeaeeesSan/SimpleFolderIcon.git?path=/Assets/SimpleFolderIcon` to Package Manager.
+
 ## License
  
 - [MIT license](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
