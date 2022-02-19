@@ -41,19 +41,16 @@ File names of the icon images in `Assets/SimpleFolderIcon/Icons/` are associated
 **Just simply customize the icons by renaming or deleting the sample image files!**
 
 ## Requirement
- 
+
 - Unity2019.4 or later
- 
+
 ## Installation
- 
-### Install manually
- 
-- Download the package from [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases).
 
 ### Install via UPM(using Git URL)
-- Add `https://github.com/SeaeeesSan/SimpleFolderIcon.git?path=/Assets/SimpleFolderIcon` to Package Manager.
+
+- Add `https://github.com/ayutaz/SimpleFolderIcon.git?path=/Assets/SimpleFolderIcon` to Package Manager.
 
 ## License
- 
-- [MIT license](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
+
+- [MIT license](https://github.com/ayutaz/SimpleFolderIcon/blob/master/LICENSE)
 - Some of the icons are from [Material design icons](https://fonts.google.com/icons).
