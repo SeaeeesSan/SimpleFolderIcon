@@ -52,6 +52,25 @@ namespace SimpleFolderIcon.Editor
                 dictionary.Add(Path.GetFileNameWithoutExtension(f.Name),texture);
             }
 
+            FileInfo[] infoSO = dir.GetFiles("*.asset");
+            foreach (FileInfo f in infoSO) 
+            {
+                var folderIconSO = (FolderIconSO)AssetDatabase.LoadAssetAtPath($"Assets/SimpleFolderIcon/Icons/{f.Name}", typeof(FolderIconSO));
+
+                if (folderIconSO != null) 
+                {
+                    var texture = (Texture)folderIconSO.icon;
+
+                    foreach (string folderName in folderIconSO.folderNames) 
+                    {
+                        if (folderName != null) 
+                        {
+                            dictionary.TryAdd(folderName, texture);
+                        }
+                    }
+                }
+            }
+            
             IconDictionary = dictionary;
         }
     }
