@@ -33,7 +33,11 @@
 `Assets/SimpleFolderIcon/Icons/Default/Default.png`がアイコンテンプレートです。  
 アイコンを追加する場合は`Assets/SimpleFolderIcon/Icons/`に.png形式のアイコン（推奨256×256）を入れてください。
 
-`Assets/SimpleFolderIcon/Icons/`内のアイコンのファイル名が、そのまま適用されるフォルダの名前になっています。**画像をリネーム・削除して、アイコンをカスタマイズ可能です。**
+`Assets/SimpleFolderIcon/Icons/`内のアイコンのファイル名が、そのまま適用されるフォルダの名前になっています。
+
+オプション：複数の名前のフォルダに一つのアイコンを割り当てたい時は、`Assets/SimpleFolderIcon/Icons/Default/FolderIconSO.asset`を`Assets/SimpleFolderIcon/Icons/`内にコピーし、アイコンと名前を割り当ててください。
+
+**画像をリネーム・削除して、アイコンをカスタマイズ可能です。**
 
 ## Requirement
  
