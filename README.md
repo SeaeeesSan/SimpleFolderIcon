@@ -38,6 +38,8 @@ The preferred size of the image is **256x256**.
 
 File names of the icon images in `Assets/SimpleFolderIcon/Icons/` are associated with the names of the folder that will be customize.
 
+Optional: if you want to use one image for multiple folders, you may copy `Assets/SimpleFolderIcon/Icons/Default/FolderIconSO.asset` into `Assets/SimpleFolderIcon/Icons/`, then in the Inspector: assign an icon & add as many folder names to the list as you want.
+
 **Just simply customize the icons by renaming or deleting the sample image files!**
 
 ## Requirement
