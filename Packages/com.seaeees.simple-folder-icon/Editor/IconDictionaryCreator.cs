@@ -6,7 +6,7 @@ namespace SimpleFolderIcon.Editor
 {
     public class IconDictionaryCreator : AssetPostprocessor
     {
-        private const string AssetsPath = "SimpleFolderIcon/Icons";
+        private const string AssetsPath = "com.seaeees.simple-folder-icon/Icons";
         internal static Dictionary<string, Texture> IconDictionary;
 
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
@@ -26,8 +26,7 @@ namespace SimpleFolderIcon.Editor
         {
             foreach (string str in assets)
             {
-
-                if (ReplaceSeparatorChar(Path.GetDirectoryName(str)) == "Assets/" + AssetsPath)
+                if (ReplaceSeparatorChar(Path.GetDirectoryName(str)) == "Packages/" + AssetsPath)
                 {
                     return true;
                 }
@@ -44,18 +43,19 @@ namespace SimpleFolderIcon.Editor
         {
             var dictionary = new Dictionary<string, Texture>();
 
-            var dir = new DirectoryInfo(Application.dataPath + "/" + AssetsPath);
+            var appDirPath = Application.dataPath.Replace("Assets","Packages");
+            var dir = new DirectoryInfo(appDirPath + "/" + AssetsPath);
             FileInfo[] info = dir.GetFiles("*.png");
             foreach(FileInfo f in info)
             {
-                var texture = (Texture)AssetDatabase.LoadAssetAtPath($"Assets/SimpleFolderIcon/Icons/{f.Name}", typeof(Texture2D));
+                var texture = (Texture)AssetDatabase.LoadAssetAtPath($"Packages/{AssetsPath}/{f.Name}", typeof(Texture2D));
                 dictionary.Add(Path.GetFileNameWithoutExtension(f.Name),texture);
             }
 
             FileInfo[] infoSO = dir.GetFiles("*.asset");
             foreach (FileInfo f in infoSO) 
             {
-                var folderIconSO = (FolderIconSO)AssetDatabase.LoadAssetAtPath($"Assets/SimpleFolderIcon/Icons/{f.Name}", typeof(FolderIconSO));
+                var folderIconSO = (FolderIconSO)AssetDatabase.LoadAssetAtPath($"Packages/{AssetsPath}/{f.Name}", typeof(FolderIconSO));
 
                 if (folderIconSO != null) 
                 {
@@ -65,7 +65,8 @@ namespace SimpleFolderIcon.Editor
                     {
                         if (folderName != null) 
                         {
-                            dictionary.TryAdd(folderName, texture);
+                            // dictionary.TryAdd(folderName, texture);
+                            dictionary.Add(folderName, texture);
                         }
                     }
                 }
