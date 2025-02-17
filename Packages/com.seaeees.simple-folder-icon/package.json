@@ -1,0 +1,14 @@
+{
+    "name": "com.seaeees.simple-folder-icon",
+    "version": "1.2.3",
+    "displayName": "Simple Folder Icon",
+    "description": "SimpleFolderIcon enables you to customize the color and the icon label of your folders in the Unity project browser.",
+    "unity": "2020.3",
+    "documentationUrl": "https://github.com/SeaeeesSan/SimpleFolderIcon",
+    "changelogUrl": "https://github.com/SeaeeesSan/SimpleFolderIcon/releases",
+    "licensesUrl": "https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE",
+    "author": {
+      "name": "Seaeees",
+      "url": "https://github.com/SeaeeesSan"
+    }
+  }
