@@ -42,13 +42,26 @@ Optional: if you want to use one image for multiple folders, you may copy `Asset
 
 **Just simply customize the icons by renaming or deleting the sample image files!**
 
-## Requirement
- 
-- Unity2019.4 or later
+
  
 ## Installation
- 
+Unity2019.4 or later
+
+### using Git URL
+- Window > Package Manager > Add package from git URL...
+
+```
+https://github.com/SeaeeesSan/SimpleFolderIcon.git?path=Packages/com.seaeees.simple-folder-icon
+```
+
+### Install via OpenUPM
+```bash
+openupm add com.seaeees.simple-folder-icon
+```
+
+### Install manually (.unitypackage)
 - Download the package from [Releases](https://github.com/SeaeeesSan/SimpleFolderIcon/releases).
+
  
 ## License
  
