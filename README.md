@@ -2,6 +2,7 @@
 
 [![GitHub all releases](https://img.shields.io/github/downloads/SeaeeesSan/SimpleFolderIcon/total)](https://github.com/SeaeeesSan/SimpleFolderIcon/releases)
 [![GitHub license](https://img.shields.io/github/license/SeaeeesSan/SimpleFolderIcon)](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
+[![openupm](https://img.shields.io/npm/v/com.seaeees.simple-folder-icon?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.seaeees.simple-folder-icon/)
 
 ### 日本語版は[こちら](README_jp.md)
 
