@@ -14,7 +14,9 @@
 - Animations
 - Audio
 - Editor
+- Editor Default Resources
 - Fonts
+- Gizmos
 - Materials
 - Models
 - Plugins
@@ -26,6 +28,7 @@
 - Settings
 - Shaders
 - Sprites
+- StreamingAssets
 - Textures
 
 ## Customize
