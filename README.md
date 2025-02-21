@@ -6,7 +6,8 @@
 
 ### 日本語版は[こちら](README_jp.md)
 
-![image](https://user-images.githubusercontent.com/68797964/132967661-a6aff48e-4605-417f-8f4c-367d9172ed0f.png)
+![image](https://github.com/user-attachments/assets/dc74f5c8-680e-427b-bc69-fe61ecf8bc0e)
+
 
 ## Features
 
@@ -17,7 +18,9 @@
 - Animations
 - Audio
 - Editor
+- Editor Default Resources
 - Fonts
+- Gizmos
 - Materials
 - Models
 - Plugins
@@ -29,6 +32,7 @@
 - Settings
 - Shaders
 - Sprites
+- StreamingAssets
 - Textures
 
 ## Customize
